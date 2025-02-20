@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(45deg, #fbe3e8, #f8ccd9,#F4B3C5,#EF8BA6,#E25778);
+    background: linear-gradient(45deg, #EEE8AA, #FFB6C1,#DDA0DD);
     background-size: 400% 400%; /* 扩大背景尺寸以支持动画 */
     animation: gradientAnimation 10s ease infinite; /* 应用动画 */
 }
