@@ -1,4 +1,5 @@
 body {
+    background-color: #FFC0CB; /* 浅粉色 */
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,23 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: liner-gradient(
-            125deg, #2c3e50, #27ae60, #2980b, #e74c3c，#8e44ad
-        );
-        background-size: 400%;
-        animation:bgmove 20s;
-    }
-    @keyframes bgmove{
-        0%{
-            background-position: 0% 50%,
-        }
-        50%{
-            background-position: 100% 50%,
-        }
-        100%{
-            background-position: 0% 50%,
-        }
-            
+    
     }
 
 .container {
