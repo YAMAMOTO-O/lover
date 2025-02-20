@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(45deg, #EEE8AA, #FFB6C1,#DDA0DD);
+    background: linear-gradient(45deg, #EEE8AA, #FFB6C1, #DDA0DD);
     background-size: 400% 400%; /* 扩大背景尺寸以支持动画 */
     animation: gradientAnimation 10s ease infinite; /* 应用动画 */
 }
@@ -33,6 +33,8 @@ body {
     width: 100%;
     max-width: 200px;
     transition: all 0.3s ease;
+    border-radius: 10px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
 }
 
 h1 {
@@ -82,11 +84,15 @@ button:hover {
 
 .yes-text {
     font-size: 7vw;
+    color: #68495b; /* 确保文字颜色与主题一致 */
+    margin-bottom: 20px; /* 增加间距 */
 }
 
 .yes-image {
     width: 50%;
     max-width: 300px;
+    border-radius: 10px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影 */
 }
 
 /* 电脑端样式优化 */
